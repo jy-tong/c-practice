@@ -1,13 +1,15 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 
-int  main() {
-	int age;
-	 
-	printf("Please enter your age: ");
-	scanf("%d",&age);
+int main() {
+	int a, b, c;
 
-	printf("you are %d years old\n", age);
+	printf("please enter two number:");
+	scanf("%d %d", &a, &b);
 
-	return 0;
+	c = a + b;
+
+	printf("%d+%d=%d\n", a, b, c);
+
+	return;
 }
